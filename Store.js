@@ -18,11 +18,12 @@ const data = [
             "https://rukminim2.flixcart.com/image/128/128/xif0q/mobile/l/3/r/g11-plus-ta-1438-ds-ta-1438-ds-nokia-original-imags8hnjcxxkfag.jpeg?q=70"
         ]
 
+        , "quantity": 1
     },
     {
         "id": 2,
-        "title": "Redmi 12 5G Jade Black 6GB RAM 128GB ROM",
-        "description": "Snapdragon 4 Gen 2 Mobile Platform : Power efficient 4nm architecture | 12GB of RAM including 6GB Virtual",
+        "title": "Redmi 12 5G Jade ",
+        "description": "Snapdragon 4 Gen 2 Mobile Platform : Power efficient 4nm architecture | 12GB of RAM including 6GB Virtual,Black 6GB RAM 128GB ROM",
         "Aprice": 17999,
         "Dprice": 13499,
         "discountPercentage": 10,
@@ -36,6 +37,7 @@ const data = [
             "https://m.media-amazon.com/images/I/41lhjG-MPnL._SX679_.jpg",
 
         ]
+        , "quantity": 1
     },
     {
         "id": 3,
@@ -54,6 +56,7 @@ const data = [
             "https://m.media-amazon.com/images/I/51noqHfXH-L._SX679_.jpg",
         ]
 
+        , "quantity": 1
     },
     {
         "id": 4,
@@ -71,10 +74,11 @@ const data = [
             "https://m.media-amazon.com/images/I/71e4JV8PTsL._SY741_.jpg",
 
         ]
+        , "quantity": 1
     }, {
         "id": 5,
-        "title": "realme narzo N53 (Feather Gold, 8GB+128GB) ",
-        "description": "Enjoy smooth multitasking and effortless app switching with the powerful 8GB dynamic RAM. Store all your favorite apps, photos, and files with the generous 128 GB ROM",
+        "title": "realme narzo N53  ",
+        "description": "Enjoy smooth multitasking and effortless app switching with the powerful 8GB dynamic RAM. Store all your favorite apps, photos, and files with the generous 128 GB ROM,(Feather Gold, 8GB+128GB)",
         "Aprice": 13999,
         "Dprice": 12099,
         "discountPercentage": 18,
@@ -88,10 +92,11 @@ const data = [
             "https://m.media-amazon.com/images/I/519syThGi0L._SX679_.jpg",
 
         ]
+        , "quantity": 1
     }, {
         "id": 6,
-        "title": "Samsung Galaxy S23 FE 5G (Purple, 8GB, 128GB Storage)",
-        "description": "Superfast 5G with 13 5G Bands, Powerful Exynos 1330 Octa Core 2.4GH 5nm processor with latest Android 13 having One UI 5.0 interface",
+        "title": "Samsung Galaxy S23 FE 5G ",
+        "description": "Superfast 5G with 13 5G Bands, Powerful Exynos 1330 Octa Core 2.4GH 5nm processor with latest Android 13 having One UI 5.0 interface,(Purple, 8GB, 128GB Storage)",
         "Aprice": 18990,
         "Dprice": 18990,
         "discountPercentage": 14,
@@ -104,11 +109,12 @@ const data = [
             "https://m.media-amazon.com/images/I/71lALgeTpUL._SX679_.jpg",
             "https://m.media-amazon.com/images/I/7140JYHBn4L._SX679_.jpg",
         ]
+        , "quantity": 1
     },
     {
         "id": 7,
-        "title": "Samsung Galaxy M04 Light Green, 4GB RAM, 64GB Storage",
-        "description": "Powerful MediaTek Helio P35 Octa Core 2.3GHz with Android 12,One UI Core 4.1",
+        "title": "Samsung Galaxy M04 ",
+        "description": "Powerful MediaTek Helio P35 Octa Core 2.3GHz with Android 12,One UI Core 4.1,Light Green, 4GB RAM, 64GB Storage",
         "Aprice": 11999,
         "Dprice": 6799,
         "discountPercentage": 43,
@@ -121,11 +127,12 @@ const data = [
             "https://m.media-amazon.com/images/I/81qErmM125L._SY741_.jpg",
             "https://m.media-amazon.com/images/I/71CU1WtWikL._SY741_.jpg",
         ]
+        , "quantity": 1
     },
     {
         "id": 8,
-        "title": "Vivo Y02t (Sunset Gold, 4GB RAM, 64GB Storage) ",
-        "description": "Memory & SIM: 4GB RAM | 64GB internal memory",
+        "title": "Vivo Y02t  ",
+        "description": "Memory & SIM: 4GB RAM | 64GB internal memory,(Sunset Gold, 4GB RAM, 64GB Storage)",
         "Aprice": 15999,
         "Dprice": 8999,
         "discountPercentage": 44,
@@ -139,11 +146,12 @@ const data = [
             "https://m.media-amazon.com/images/I/51L+iYDShiL._SX679_.jpg",
 
         ]
+        , "quantity": 1
     },
     {
         "id": 9,
-        "title": "Vivo Y91 1816 (Ocean Blue, 2GB RAM, 32GB Storage)",
-        "description": "13MP+2MP dual rear camera | 8MP front facing camera ,15.80 centimeters (6.22-inch) capacitive touchscreen with 1520 x 720 pixels resolution",
+        "title": "Vivo Y91 1816 ",
+        "description": "13MP+2MP dual rear camera | 8MP front facing camera ,15.80 centimeters (6.22-inch) capacitive touchscreen with 1520 x 720 pixels resolution,(Ocean Blue, 2GB RAM, 32GB Storage)",
         "Aprice": 12000,
         "Dprice": 10000,
         "discountPercentage": 17,
@@ -153,17 +161,24 @@ const data = [
         "images": [
             "https://m.media-amazon.com/images/I/61csoi3ewEL._SY741_.jpg"
         ]
+        , "quantity": 1
     }, {
         "id": 10,
-        "title": "Samsung Galaxy M14 5G",
+        "title": "SAMSUNG Galaxy S23 Ultra 5G",
         "description": "Superfast 5G with 13 5G Bands, Powerful Exynos 1330 Octa Core 2.4GH 5nm processor with latest Android 13 having One UI 5.0 interface",
-        "Aprice": 18990,
-        "Dprice": 18990,
-        "discountPercentage": 14,
-        "rating": "4.8",
+        "Aprice": 149999,
+        "Dprice": 124999,
+        "discountPercentage": 16,
+        "rating": "4.6",
         "brand": "Samsung",
         "category": "mobile",
-        "images": []
+        "images": [
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/2/s/7/-original-imagmg6gktts6sfy.jpeg?q=70",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/g/m/t/-original-imagmg6gyhzhh3fb.jpeg?q=70",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/q/y/u/-original-imagmg6ggzazdevx.jpeg?q=70",
+            "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/p/4/u/-original-imagmg6gynphgrh8.jpeg?q=70"
+        ]
+        , "quantity": 1
     }, {
         "id": 11,
         "title": "Women Viscose Rayon Kurta Pant Dupatta Set",
@@ -180,6 +195,7 @@ const data = [
             "https://rukminim2.flixcart.com/image/832/832/xif0q/kurta/c/5/y/3xl-kalamkari-stright-m-parth-fab-original-imagkdccusjtmjwx.jpeg?q=70",
             "https://rukminim2.flixcart.com/image/832/832/xif0q/kurta/z/8/0/3xl-kalamkari-stright-m-parth-fab-original-imagkdccujnhhky2.jpeg?q=70",
         ]
+        , "quantity": 1
     },
     {
         "id": 12,
@@ -199,6 +215,7 @@ const data = [
 
 
         ]
+        , "quantity": 1
     },
     {
         "id": 13,
@@ -216,6 +233,7 @@ const data = [
             "https://rukminim2.flixcart.com/image/832/832/kcjexe80/kurta/b/r/x/xxl-psk103-glorious-original-imaftnbjuxcy9dnk.jpeg?q=70",
             "https://rukminim2.flixcart.com/image/832/832/kcjexe80/kurta/4/j/j/xxl-psk103-glorious-original-imaftnbjqytrnzga.jpeg?q=70",
         ]
+        , "quantity": 1
     },
     {
         "id": 14,
@@ -233,6 +251,7 @@ const data = [
             "https://rukminim2.flixcart.com/image/832/832/xif0q/sari/e/u/r/free-pipo0a-sarees-saree-cotton-saree-sarees-for-wedding-silk-original-imagrvg44yhwza6g.jpeg?q=70",
             "https://rukminim2.flixcart.com/image/832/832/xif0q/sari/e/d/x/free-pipo0a-sarees-saree-cotton-saree-sarees-for-wedding-silk-original-imagrvg4tudcv8gm.jpeg?q=70",
         ]
+        , "quantity": 1
     },
     {
         "id": 15,
@@ -250,6 +269,7 @@ const data = [
             "https://rukminim2.flixcart.com/image/832/832/xif0q/sari/b/v/d/free-38104-mirchi-fashion-unstitched-original-imagn6jg87vftzgp.jpeg?q=70",
             "https://rukminim2.flixcart.com/image/832/832/xif0q/sari/b/2/l/free-38104-mirchi-fashion-unstitched-original-imagn6jgztjyzffd.jpeg?q=70",
         ]
+        , "quantity": 1
     },
     {
         "id": 16,
@@ -268,6 +288,7 @@ const data = [
             "https://rukminim2.flixcart.com/image/832/832/xif0q/sari/i/g/r/free-self-design-bandhani-patoda-print-saree-dailywear04-original-imagggrsggrup9zw.jpeg?q=70",
 
         ]
+        , "quantity": 1
     },
     {
         "id": 17,
@@ -285,6 +306,7 @@ const data = [
             "https://rukminim2.flixcart.com/image/832/832/xif0q/sari/g/j/b/free-gp-24-green-art-silk-designer-bollywood-fashion-style-original-imagphr9ccmyfn5w.jpeg?q=70",
             "https://rukminim2.flixcart.com/image/832/832/xif0q/sari/f/u/c/free-bridal-d-snh-export-unstitched-original-imagpqnvv4fzxdwv.jpeg?q=70",
         ]
+        , "quantity": 1
     },
     {
         "id": 18,
@@ -301,6 +323,7 @@ const data = [
             "https://rukminim2.flixcart.com/image/832/832/xif0q/sari/b/e/d/free-ls-redbutta-purple-benaifer-fashion-unstitched-original-imagkkyjxhbvvggq.jpeg?q=70",
             "https://rukminim2.flixcart.com/image/832/832/xif0q/sari/9/i/u/free-ls-redbutta-purple-benaifer-fashion-unstitched-original-imagkkyjguphkj8b.jpeg?q=70",
         ]
+        , "quantity": 1
     },
     {
         "id": 19,
@@ -317,6 +340,7 @@ const data = [
             "https://rukminim2.flixcart.com/image/832/832/xif0q/sari/y/w/v/free-sd-381-aadvika-unstitched-original-imagntrwzyjr5fnh.jpeg?q=70",
             "https://rukminim2.flixcart.com/image/832/832/xif0q/sari/s/m/j/free-sd-381-aadvika-unstitched-original-imagntrwzecfn2qt.jpeg?q=70",
         ]
+        , "quantity": 1
     },
     {
         "id": 20,
@@ -334,6 +358,7 @@ const data = [
             "https://rukminim2.flixcart.com/image/832/832/xif0q/sari/q/8/q/free-01-siya-unstitched-original-imagrgydcb7sjpnn.jpeg?q=70",
             "https://rukminim2.flixcart.com/image/832/832/xif0q/sari/0/9/g/free-01-siya-unstitched-original-imagrgydc2dr4hbk.jpeg?q=70",
         ]
+        , "quantity": 1
     },
     {
         "id": 21,
@@ -351,6 +376,7 @@ const data = [
             "https://rukminim2.flixcart.com/image/416/416/xif0q/mixer-grinder-juicer/d/v/n/-original-imags23buskcyqpg.jpeg?q=70",
             "https://rukminim2.flixcart.com/image/416/416/xif0q/mixer-grinder-juicer/f/1/3/-original-imags23bzhqkwqjw.jpeg?q=70"
         ]
+        , "quantity": 1
     },
     {
         "id": 22,
@@ -368,6 +394,7 @@ const data = [
             "https://rukminim2.flixcart.com/image/416/416/xif0q/headphone/9/r/w/-original-imaghbduvtpxmcnz.jpeg?q=70",
             "https://rukminim2.flixcart.com/image/416/416/xif0q/headphone/w/c/y/-original-imaghbduarjhyvth.jpeg?q=70",
         ]
+        , "quantity": 1
     },
     {
         "id": 23,
@@ -385,6 +412,7 @@ const data = [
             "https://rukminim2.flixcart.com/image/416/416/l3bx5e80/speaker/5/5/5/-original-imageh8fshjw4khu.jpeg?q=70",
             "https://rukminim2.flixcart.com/image/416/416/l3bx5e80/speaker/8/u/b/-original-imageh8fzwnrv5ck.jpeg?q=70"
         ]
+        , "quantity": 1
     },
     {
         "id": 24,
@@ -402,6 +430,7 @@ const data = [
             "https://rukminim2.flixcart.com/image/416/416/xif0q/headphone/d/l/u/-original-imagrddwj5axshnz.jpeg?q=70",
             "https://rukminim2.flixcart.com/image/416/416/xif0q/headphone/o/d/z/-original-imagrddwzv9ah85m.jpeg?q=70"
         ]
+        , "quantity": 1
     },
     {
         "id": 25,
@@ -419,6 +448,7 @@ const data = [
             "https://rukminim2.flixcart.com/image/416/416/xif0q/smart-headphone/i/m/4/m-10-a-lookar-original-imagrpgu8qvvazmn.jpeg?q=70",
 
         ]
+        , "quantity": 1
     },
     {
         "id": 26,
@@ -437,6 +467,7 @@ const data = [
             "https://rukminim2.flixcart.com/image/416/416/k5vcya80pkrrdj/speaker/laptop-desktop-speaker/c/t/z/zebronics-fame-2-0-channel-original-imafkjb9npa7cawv.jpeg?q=70",
 
         ]
+        , "quantity": 1
     },
     {
         "id": 27,
@@ -454,6 +485,7 @@ const data = [
             "https://rukminim2.flixcart.com/image/416/416/k5vcya80pkrrdj/speaker/laptop-desktop-speaker/n/4/y/zebronics-zeb-warrior-original-imafmyptx7us3azg.jpeg?q=70",
             "https://rukminim2.flixcart.com/image/416/416/k5vcya80pkrrdj/speaker/laptop-desktop-speaker/n/4/y/zebronics-zeb-warrior-original-imafmrf22yna9sug.jpeg?q=70"
         ]
+        , "quantity": 1
     },
     {
         "id": 28,
@@ -471,6 +503,7 @@ const data = [
             "https://rukminim2.flixcart.com/image/416/416/xif0q/speaker/e/h/3/-original-imagh3eexk3n7pwy.jpeg?q=70",
             "https://rukminim2.flixcart.com/image/416/416/xif0q/speaker/t/y/7/-original-imagh3eegadsa2gs.jpeg?q=70"
         ]
+        , "quantity": 1
     },
     {
         "id": 29,
@@ -482,7 +515,10 @@ const data = [
         "rating": "3.9",
         "brand": "",
         "category": "electronics",
-        "images": []
+        "images": [
+            "https://rukminim2.flixcart.com/image/416/416/jwfa5jk0/pendrive/pendrive/j/v/g/sandisk-sdcz48-128g-i35-original-imafh3xkyzuxzwat.jpeg?q=70"
+        ]
+        , "quantity": 1
     },
     {
         "id": 30,
@@ -500,6 +536,7 @@ const data = [
             "https://rukminim2.flixcart.com/image/416/416/jwfa5jk0/pendrive/pendrive/j/v/g/sandisk-sdcz48-128g-i35-original-imafh3xhukgbmrsg.jpeg?q=70",
             "https://rukminim2.flixcart.com/image/416/416/jwfa5jk0/pendrive/pendrive/j/v/g/sandisk-sdcz48-128g-i35-original-imafh3xkyzuxzwat.jpeg?q=70",
         ]
+        , "quantity": 1
     },
     {
         "id": 31,
@@ -517,6 +554,7 @@ const data = [
             "https://rukminim2.flixcart.com/image/416/416/xif0q/ayurvedic/v/3/m/-original-imagtfzznnfs6czm.jpeg?q=70",
             "https://rukminim2.flixcart.com/image/416/416/xif0q/ayurvedic/p/z/g/-original-imagtfzzbv3629wh.jpeg?q=70",
         ]
+        , "quantity": 1
     },
     {
         "id": 32,
@@ -534,6 +572,7 @@ const data = [
             "https://rukminim2.flixcart.com/image/416/416/xif0q/ayurvedic/v/i/w/-original-imagmdfxgamcskcr.jpeg?q=70",
             "https://rukminim2.flixcart.com/image/416/416/xif0q/ayurvedic/3/h/q/-original-imagmdfxtmfp9z9c.jpeg?q=70",
         ]
+        , "quantity": 1
     },
     {
         "id": 33,
@@ -551,6 +590,7 @@ const data = [
             "https://rukminim2.flixcart.com/image/416/416/xif0q/ayurvedic/w/h/s/-original-imagk2yxuhnat9m5.jpeg?q=70",
             "https://rukminim2.flixcart.com/image/416/416/xif0q/ayurvedic/w/e/j/-original-imagk2yxkzxuk4va.jpeg?q=70"
         ]
+        , "quantity": 1
     },
     {
         "id": 34,
@@ -568,6 +608,7 @@ const data = [
             "https://rukminim2.flixcart.com/image/416/416/l2qhjm80/antiseptic/g/w/p/-original-imageyapkxcmdnw9.jpeg?q=70",
             "https://rukminim2.flixcart.com/image/416/416/l2qhjm80/antiseptic/o/u/t/-original-imageyapys28fzga.jpeg?q=70",
         ]
+        , "quantity": 1
     }, {
         "id": 35,
         "title": "Pediasure 7+ Nutrition Health Energy Drink  (400 g, Chocolate Flavored)",
@@ -581,6 +622,7 @@ const data = [
         "images": [
             "https://rukminim2.flixcart.com/image/416/416/xif0q/energy-sport-drink-mix/f/t/g/-original-imagsph6rqfrt6d4.jpeg?q=70"
         ]
+        , "quantity": 1
     },
     {
         "id": 36,
@@ -598,6 +640,7 @@ const data = [
             "https://rukminim2.flixcart.com/image/416/416/l4oi4cw0/vitamin-supplement/6/0/9/15-apple-cider-vinegar-15-effervescent-tablets-watermelon-original-imagfgrejkpsfgz7.jpeg?q=70",
             "https://rukminim2.flixcart.com/image/416/416/l4oi4cw0/vitamin-supplement/y/h/a/15-apple-cider-vinegar-15-effervescent-tablets-watermelon-original-imagfgrectkhyzhj.jpeg?q=70"
         ]
+        , "quantity": 1
     },
     {
         "id": 37,
@@ -615,6 +658,7 @@ const data = [
             "https://rukminim2.flixcart.com/image/416/416/xif0q/milk-drink-mix/x/m/o/-original-imagp8wh8htgh5zf.jpeg?q=70",
             "https://rukminim2.flixcart.com/image/416/416/xif0q/milk-drink-mix/o/s/a/-original-imagp8wcdtarnjyx.jpeg?q=70"
         ]
+        , "quantity": 1
     },
     {
         "id": 38,
@@ -633,6 +677,7 @@ const data = [
             "https://rukminim2.flixcart.com/image/416/416/xif0q/protein-supplement/e/h/b/creatine-pure-micronised-creatine-monohydrate-pre-post-workout-original-imagzvhnsupvx65j.jpeg?q=70",
 
         ]
+        , "quantity": 1
     },
     {
         "id": 39,
@@ -650,6 +695,7 @@ const data = [
             "https://rukminim2.flixcart.com/image/416/416/xif0q/hot-water-bag/z/k/p/hot-water-rubber-bag-hot-water-rubber-bag-0-varkaus-2-original-imaghby7hrmjshhk.jpeg?q=70",
             "https://rukminim2.flixcart.com/image/416/416/xif0q/hot-water-bag/y/d/p/hot-water-bottle-bag-for-pain-relief-orcl-non-electric-heareal-original-imaghfkgxqftwzvg.jpeg?q=70",
         ]
+        , "quantity": 1
     },
     {
         "id": 40,
@@ -666,6 +712,21 @@ const data = [
             "https://rukminim2.flixcart.com/image/416/416/kv1a4cw0/vitamin-supplement/f/7/9/80-organic-moringa-tablets-organic-superfood-improves-digestion-original-imag8yrxypqmh7dc.jpeg?q=70",
             "https://rukminim2.flixcart.com/image/416/416/kv1a4cw0/vitamin-supplement/c/n/a/80-organic-moringa-tablets-organic-superfood-improves-digestion-original-imag8yrxggqduatc.jpeg?q=70",
             "https://rukminim2.flixcart.com/image/416/416/kv1a4cw0/vitamin-supplement/f/c/l/80-organic-moringa-tablets-organic-superfood-improves-digestion-original-imag8yrxscq9yjgz.jpeg?q=70",
+        ]
+        , "quantity": 1
+    },
+    {
+        "id": 41,
+        "title": "",
+        "description": "",
+        "Aprice": 349,
+        "Dprice": 269,
+        "discountPercentage": 22,
+        "rating": "4.3",
+        "brand": "",
+        "category": "health",
+        "images": [
+
         ]
     }
 
