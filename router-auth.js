@@ -6,7 +6,10 @@ router.route("/").get((req, res) => {
 })
 
 router.route("/register").get((req, res) => {
-    res.status(200).send("signup")
+    res.status(200).send("hjgjhgj")
 })
+
+
+
 
 module.exports = router;
