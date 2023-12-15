@@ -37,24 +37,35 @@ app.post("/login", async (req, res) => {
 })
 /*---------signup-------------------*/
 app.post("/signup", async (req, res) => {
-    const { email, password } = req.body
+    const { email, Password } = req.body
     const detail = {
         email: email,
-        password: password
+        password: Password
     }
-    try {
-        const check = await collection.findOne({ email: email })
-        if (check) {
-            res.json("already exist")
-        }
-        else {
-            res.json("notexist")
-            await collection.insertMany([detail])
-        }
+    const check = await collection.find({ email: email })
+    console.log(check);
+    if (check.length != 0) {
+        return res.send("already exist")
     }
-    catch (e) {
-        res.json("notexist")
+    const mongores = await collection.create(detail)
+    if (mongores) {
+        return res.send("user registerd")
     }
+    else {
+        return res.send("error")
+    }
+    // try {
+
+
+    //     else {
+
+    //         const mongores = await collection.create(detail)
+    //         res.send(mongores)
+    //     }
+    // }
+    // catch (e) {
+    //     res.send("notexist")
+    // }
 })
 //app.use("/signup", router)
 

@@ -16,5 +16,5 @@ const newSchema = mongoose.Schema({
         required: true
     }
 })
-const collection = mongoose.model("user-detail", newSchema)
+const collection = mongoose.model("user", newSchema)
 module.exports = collection
