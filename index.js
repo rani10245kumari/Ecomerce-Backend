@@ -76,7 +76,8 @@ app.get("/search", (req, res) => {
     const query = req.query.q;
     const filterData = data.filter(element =>
         element.title.toLowerCase().includes(query.toLowerCase()) ||
-        element.description.toLowerCase().includes(query.toLowerCase()))
+        element.description.toLowerCase().includes(query.toLowerCase()) ||
+        element.category.toLowerCase().includes(query.toLowerCase()))
     res.send(filterData)
     console.log(query);
 })
