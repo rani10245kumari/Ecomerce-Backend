@@ -3,6 +3,7 @@ const data = require("./Store")
 const router = require("./router-auth")
 const cors = require("cors")
 const collection = require("./mongo")
+const checkout = require("./oderdetail")
 
 const app = express();
 app.use(express.json())
@@ -16,9 +17,7 @@ app.get("/", (req, res) => {
 })
 /*-----------login-design---------*/
 
-app.get("/login", cors(), (req, res) => {
 
-})
 
 app.post("/login", async (req, res) => {
     const { email, password } = req.body
@@ -81,4 +80,6 @@ app.get("/search", (req, res) => {
     res.send(filterData)
     console.log(query);
 })
+
+app.post("/order", checkout)
 app.listen(5780)
