@@ -9,11 +9,11 @@ mongoose.connect("mongodb+srv://ranik10245:ranik10245@cluster0.amponrd.mongodb.n
 const newSchema = mongoose.Schema({
     email: {
         type: String,
-        required: true
+
     },
     password: {
         type: String,
-        required: true
+
     }
 })
 const collection = mongoose.model("user", newSchema)

@@ -39,13 +39,15 @@ app.get("/", (req, res) => {
 //     }
 // })
 
-app.post("/login", (req, res) => {
+app.post("/login", async (req, res) => {
     const loginData = req.body
-    let findAcc = arr.find(item => item.email == loginData.email)
-    if (!findAcc)
+    let findAcc = await collection.find({ email: { $eq: loginData.email } })
+    console.log(findAcc)
+    if (findAcc.length === 0)
+
         return res.send({ msg: "User has not registered, please try again" })
 
-    const validate = bcrypt.compareSync(loginData.pass, findAcc.pass)
+    const validate = bcrypt.compareSync(loginData.password, findAcc[0].password)
     if (validate)
         return res.send({ msg: "User successfully logged in" })
 
@@ -83,10 +85,16 @@ app.post("/login", (req, res) => {
 //     //     res.send("notexist")
 //     // }
 // })
-app.post("/signup", (req, res) => {
+app.post("/signup", async (req, res) => {
     const regData = req.body
-    regData.pass = bcrypt.hashSync(regData.pass, saltRound)
-    arr.push(regData)
+
+    const isregister = await collection.find({ email: { $eq: regData.email } })
+    if (isregister.length > 0) {
+        return res.send("user already exists")
+    }
+    regData.password = bcrypt.hashSync(regData.password, saltRound)
+    const mongores = await collection.create(regData)
+    console.log(mongores)
     const token = jwt.sign({ user: regData.email }, secretKey, { expiresIn: 36000 })
     console.log(regData);
     return res.send({ msg: `user registered successfully`, JWT: `${token}` })
