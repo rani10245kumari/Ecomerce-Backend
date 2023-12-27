@@ -23,21 +23,7 @@ app.get("/", (req, res) => {
 
 
 
-// app.post("/login", async (req, res) => {
-//     const { email, password } = req.body
-//     try {
-//         const check = await collection.findOne({ email: email })
-//         if (check) {
-//             res.json("already exist")
-//         }
-//         else {
-//             res.json("user login")
-//         }
-//     }
-//     catch (e) {
-//         res.json("notexist")
-//     }
-// })
+
 
 app.post("/login", async (req, res) => {
     const loginData = req.body
@@ -53,38 +39,7 @@ app.post("/login", async (req, res) => {
 
     return res.send({ msg: "User details doesn't match" })
 })
-// /*---------signup-------------------*/
-// app.post("/signup", async (req, res) => {
-//     const { email, Password } = req.body
-//     const detail = {
-//         email: email,
-//         password: Password
-//     }
-//     const check = await collection.find({ email: email })
-//     console.log(check);
-//     if (check.length != 0) {
-//         return res.send("already exist")
-//     }
-//     const mongores = await collection.create(detail)
-//     if (mongores) {
-//         return res.send("user registerd")
-//     }
-//     else {
-//         return res.send("error")
-//     }
-//     // try {
 
-
-//     //     else {
-
-//     //         const mongores = await collection.create(detail)
-//     //         res.send(mongores)
-//     //     }
-//     // }
-//     // catch (e) {
-//     //     res.send("notexist")
-//     // }
-// })
 app.post("/signup", async (req, res) => {
     const regData = req.body
 
@@ -114,4 +69,12 @@ app.get("/search", (req, res) => {
 })
 
 app.post("/order", checkout)
-app.listen(5780)
+PORT = 5780
+app.listen(PORT, () => {
+    try {
+        console.log(`Server is running on ${PORT}`)
+
+    } catch (error) {
+
+    }
+})

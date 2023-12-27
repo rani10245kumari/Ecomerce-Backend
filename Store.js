@@ -14,7 +14,6 @@ const data = [
             "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/c/a/f/g42-5g-ta-1586-nokia-original-imagunrqsdh8ghvv.jpeg?q=70",
             "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/o/7/o/g42-5g-ta-1586-nokia-original-imagunrqdquxqnyw.jpeg?q=70",
             "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/4/t/l/g42-5g-ta-1586-nokia-original-imagunrqvdzeedvd.jpeg?q=70",
-            "https://rukminim2.flixcart.com/image/416/416/xif0q/mobile/y/r/r/g42-5g-ta-1586-nokia-original-imagunrqgvzbcnvh.jpeg?q=70",
             "https://rukminim2.flixcart.com/image/128/128/xif0q/mobile/l/3/r/g11-plus-ta-1438-ds-ta-1438-ds-nokia-original-imags8hnjcxxkfag.jpeg?q=70"
         ]
 
