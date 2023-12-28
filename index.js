@@ -45,14 +45,14 @@ app.post("/signup", async (req, res) => {
 
     const isregister = await collection.find({ email: { $eq: regData.email } })
     if (isregister.length > 0) {
-        return res.send("user already exists")
+        return res.send({ msg: "user already exists" })
     }
     regData.password = bcrypt.hashSync(regData.password, saltRound)
     const mongores = await collection.create(regData)
     console.log(mongores)
     const token = jwt.sign({ user: regData.email }, secretKey, { expiresIn: 36000 })
     console.log(regData);
-    return res.send({ msg: `user registered successfully`, JWT: `${token}` })
+    return res.send({ msg: `user registered successfully`, token: `${token}` })
 })
 
 
