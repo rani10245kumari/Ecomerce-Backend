@@ -22,7 +22,7 @@ const checkout = async (req, res) => {
             payment_method_types: ['card'],
             mode: "payment",
             line_items: lineItems,
-            success_url: "http://localhost:3001/payment/sucess",
+            success_url: "https://resilient-otter-cde763.netlify.app/",
             cancel_url: "http://localhost:3001/payment/cancel"
         })
         res.json({ id: session.id })
